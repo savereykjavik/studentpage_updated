@@ -49,19 +49,63 @@ body {
 	max-width: 900px;
 }
 
-.input-group {
-	margin-left: -2px;
-    max-width: 500px;
-    padding-top: 30px;
+/*.input-group {
+    margin-top: 12px;
 }
 
 .form-control {
 	height: 50px;
 }
+*/
+
 
 .input-group-addon {
 	background-color: #2BBD66;
     color: #FFF;
+    width: 65%;
+}
+
+#basic-addon2 {
+	padding: 14px 23px;
+	width: 30px;
+	text-decoration: none;
+	border-radius: 0 5px 5px 0;
+	border-color: #ccc;
+
+}
+
+#basci-addon2 a, #basci-addon2 a:hover  {
+	text-decoration: none;
+}
+
+#basic-addon2:hover, #basic-addon2:visited, #basic-addon2:link, #basic-addon2:active
+{
+	opacity: 0.8;
+    text-decoration: none;
+
+}
+
+.dropdown-toggle {
+	float: left;
+    width: 60%;
+    max-width: 250px;
+    text-align: left;
+    padding: 11px 12px;
+}
+
+.dropdown {
+	margin-top: 25px;
+}
+
+.btn .caret {
+    margin-left: 45%
+}
+
+@media screen and (max-width: 550px) {
+
+	.btn .caret {
+		margin-left: 10px;
+	}
 }
 .caption {
 	float: left;
