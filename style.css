@@ -26,8 +26,8 @@ body {
 	margin-right: 20px;
 }
 #brands {
-    background-color: rgba(128, 128, 128, 0.33);
-    height: 120px;
+    background: #89bac2;
+    height: 70px;
     margin-top: 0px;
 }
 #brag {
@@ -62,6 +62,66 @@ body {
 .input-group-addon {
 	background-color: #2BBD66;
     color: #FFF;
+}
+.caption {
+	float: left;
+    width: 20%;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    padding: 0.4em 0% 0em 2%;
+    margin: 0 0 0 0;
+}
+
+.container.banner {
+	height: 70px;
+    width: 100%;
+}
+
+.banner li {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 100%;
+    padding: 0 0 0 0%;
+    margin: 0 0 0 5.0%;
+ }
+.banner ul {
+	display: inline;
+    float: left;
+    width: 80%;
+    margin: .3em 0 .4em 0;
+    padding: 0 0 0 0%;
+ }
+ 
+.img-wrap {
+ 	width: 100%;
+}
+.img-maker.img-wrap {
+	width: 130%;
+}
+.client-logo {
+	max-width: 100%;
+    height: auto;
+}
+.img-redbull {
+	width: 14.0%;
+}
+
+.img-maker {
+    width: 6.1%;
+}
+
+.img-channel-5 {
+	width: 18.0%;
+}
+
+.img-svt {
+	width: 10.35%;
+}
+
+.img-discovery {
+	width: 16.7%;
 }
 
 #terms {
@@ -119,4 +179,5 @@ p {
 	.videoWrapper {
 		margin-left: 0px;
 	}
+
 
