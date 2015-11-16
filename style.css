@@ -3,8 +3,11 @@ body {
 	color: #4B4F4A;
 }
 
+
+
 .container {
 	width: 100%;
+	max-width: 100%;
 	max-width: 1100px;
 }
 
@@ -27,7 +30,9 @@ body {
 }
 #brands {
     background: rgba(163, 154, 143, 0.69);
-    height: 70px;
+    max-height: 70px;
+    height: auto;
+    max-width: 100%;
     margin-top: 0px;
 }
 #brag {
@@ -35,6 +40,19 @@ body {
     margin-top: 0;
     width: 70%;
 }
+
+
+#steps {
+	max-width: 100%;
+	height: auto;
+	max-height: 300px;
+	padding: 2%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+
+	/*
 #steps {  
     width: 40%;
     min-width: 200px;
@@ -44,6 +62,7 @@ body {
     margin-bottom: 50px;
     position: absolute;
 }
+*/
 .textbox {
 	margin-top: 30px;
 	max-width: 900px;
@@ -105,22 +124,33 @@ body {
 
 /* end css drowdown */
 
+
+/* added 1.5vw; for responsive text */
 }
 .caption {
 	float: left;
     width: 20%;
     color: #fff;
     font-size: 0.9em;
+    font-size: 1.5vw;
     font-weight: bold;
     letter-spacing: 0.09em;
     padding: 0.4em 0% 0em 2%;
     margin: 0 0 0 0;
 }
 
-.container.banner {
+
+/*.container.banner {
 	height: 70px;
     width: 100%;
+}*/
+
+.container.banner {
+	max-height: 70px;
+    max-width: 100%;
+    height: auto;
 }
+
 
 .banner li {
     display: inline-block;
@@ -137,9 +167,18 @@ body {
     padding: 0 0 0 0%;
  }
  
+.img-wrap{
+	max-width: 100%;
+	height: auto;
+}
+
+ /*
+}
 .img-wrap {
  	width: 100%;
 }
+
+*/
 .img-maker.img-wrap {
 	width: 130%;
 }
@@ -169,9 +208,9 @@ body {
 
 #terms {
 	background-color: rgb(248, 247, 242);
-	height: 750px;
 	color: #CC0000;
-
+	max-height: 100%;
+	padding: 5%;
 }
 
 #videos{
