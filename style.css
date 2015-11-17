@@ -220,6 +220,9 @@ width: 12.7%;
 .banner ul {
       width: 100%;
     }
+h1 {
+	padding-top: 0px !important;
+}
 
 }
 
