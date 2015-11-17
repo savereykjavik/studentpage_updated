@@ -229,6 +229,11 @@ width: 12.7%;
 	max-height: 100%;
 }
 
+#terms .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 #videos{
 	background-color: #FFF;
 	min-height: 300px;
