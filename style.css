@@ -3,15 +3,28 @@ body {
 	color: #4B4F4A;
 }
 
-
-
 .container {
 	width: 100%;
 	max-width: 100%;
 	max-width: 1100px;
 }
 
+.col-md-4 {
+	height: 150px;
+    border: 2px solid #F28686;
+    border-radius: 8px;
+    width: 30%;
+    margin: 1.5%;
+}
 
+#onetwothree {
+	background-color: rgb(248, 247, 242);
+	padding-top: 30px;
+}
+
+#signup {
+	text-decoration: none;
+}
 
 #top {
 	background-color: #FFF;
@@ -19,6 +32,7 @@ body {
 	padding: 0%;
 	background-image: url('images/background.jpg');
 	background-size: cover;
+	background-position: center bottom;
 }
 #mid {
     padding-top: 20px;
@@ -32,14 +46,34 @@ body {
 	min-width: 100px;
 	max-width: 300px;
 	margin-right: 20px;
+	margin-top: 20px;
 }
 #brands {
-    background: rgba(163, 154, 143, 0.69);
-    /* max-height: 70px;*/ 
+	background: rgba(163, 154, 143, 0.69);
+/*	background: rgb(204, 201, 197);*/
     height: auto;
     max-width: 100%;
     margin-top: 0px;
 }
+
+.img-redbull {
+width: 11.0%;
+}
+.img-maker {
+width: 5.1%;
+}
+.img-channel-5 {
+width: 14.0%;
+}
+.img-svt {
+width: 8.35%;
+}
+.img-discovery {
+width: 12.7%;
+}
+
+
+
 #brag {
     margin-left: 190px;
     margin-top: 0;
@@ -57,17 +91,6 @@ body {
     margin-right: auto
 	}
 
-	/*
-#steps {  
-    width: 40%;
-    min-width: 200px;
-    max-width: 600px;
-    margin-left: 250px;
-    margin-top: 48px;
-    margin-bottom: 50px;
-    position: absolute;
-}
-*/
 .box {
     border: 2px solid #EE5656;
     padding: 25px;
@@ -77,7 +100,7 @@ body {
 }
 
 .textbox {
-	margin-top: 30px;
+	margin-top: 40px;
 	max-width: 900px;
 }
 
@@ -85,8 +108,8 @@ body {
 /* css dropdown */
 
 .signupbox {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 100px;
 }
 
 #dropdown {
@@ -96,15 +119,16 @@ body {
 
 #signup {
 	display: inline-table;
-	    height: 36px;
+	height: 39px;
 }
 
 .form-control {
-    height: 36px;
+    height: 40px;
 }
 
 .input-group-addon {
 	background-color: #2BBD66;
+	border-color: #2BBD66;
     color: #FFF;
     width: 65%;
     font-size: 16px;
@@ -133,30 +157,25 @@ body {
 
 #signup {
 	width: 100%;
+	margin-top: 10px;
 }
 
 /* end css drowdown */
 
-
-/* added 1.5vw; for responsive text */
 }
+
+
 .caption {
 	float: left;
     width: 20%;
-    color: #fff;
+	color: #F4F2EA;
     font-size: 0.9em;
-    font-size: 1.5vw;
     font-weight: bold;
     letter-spacing: 0.09em;
     padding: 0.4em 0% 0em 2%;
     margin: 0 0 0 0;
 }
 
-
-/*.container.banner {
-	height: 70px;
-    width: 100%;
-}*/
 
 .container.banner {
 	max-height: 70px;
@@ -185,13 +204,6 @@ body {
 	height: auto;
 }
 
- /*
-}
-.img-wrap {
- 	width: 100%;
-}
-
-*/
 .img-maker.img-wrap {
 	width: 130%;
 }
@@ -199,31 +211,22 @@ body {
 	max-width: 100%;
     height: auto;
 }
-.img-redbull {
-	width: 14.0%;
-}
 
-.img-maker {
-    width: 6.1%;
-}
+@media screen and (max-width: 700px) {
+.caption {
+      width: 45%;
+      font-size: 0.6em;
+    }
+.banner ul {
+      width: 100%;
+    }
 
-.img-channel-5 {
-	width: 18.0%;
-}
-
-.img-svt {
-	width: 10.35%;
-}
-
-.img-discovery {
-	width: 16.7%;
 }
 
 #terms {
 	background-color: rgb(248, 247, 242);
 	color: #CC0000;
 	max-height: 100%;
-	padding: 5%;
 }
 
 #videos{
@@ -262,6 +265,7 @@ h1 {
 
 h2 {
 	font-size: 2em;
+	font-weight: 600;
 }
 
 
