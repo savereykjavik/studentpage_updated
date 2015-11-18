@@ -65,8 +65,8 @@ body {
 }
 
 #mid {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 130px;
+    padding-bottom: 0px;
     position: relative;
     text-align: center;
 }
@@ -107,6 +107,15 @@ width: 12.7%;
 #steps {
 	max-width: 900px;
 	}
+
+#arrow {
+    width: 4em;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display:block;
+}
 
 .box {
     border: 2px solid #ED5555;
