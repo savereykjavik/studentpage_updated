@@ -1,3 +1,5 @@
+/* general */
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #4B4F4A;
@@ -9,51 +11,25 @@ body {
 	max-width: 1100px;
 }
 
-.container-3 {
-	width: 33%;
-	float: left;
-	display: inline-flex;
+h1 {
+	font-size: 1.7em;
+	font-weight: 300;
+	color: #4B4F4A;
+	padding-top: 30px;
+	display: inline-block;
 }
 
-#steps-container {
-	background-color: rgb(248, 247, 242);
-    padding-bottom: 40px;
-    padding-top: 60px;
+h2 {
+	font-size: 2em;
+	font-weight: 600;
 }
 
-.divWrapper {
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 0px;
-    font-weight: 300;
-    font-size: 1.5em;
-    color: #696969;
+p {
+	font-size: 1.2em;
+	font-weight: 300;
 }
 
-#steps img {
-	width: 100%;
-}
-
-
-.step-text {
-	width: 60%;
-	float: left;
-}
-
-.step-square{
-	width: 40%;
-	float: left;
-}
-
-.step-square img {
-	width: 100%;
-	height: 100%;
-}
-
-#signup {
-	text-decoration: none;
-}
+/* first section */
 
 #top {
 	background-color: #FFF;
@@ -61,13 +37,6 @@ body {
 	background-image: url('images/background.jpg');
 	background-size: cover;
 	background-position: center bottom;
-}
-
-#mid {
-    padding-top: 110px;
-    padding-bottom: 10px;
-    position: relative;
-    text-align: center;
 }
 
 #logo {
@@ -79,59 +48,7 @@ body {
 	margin-top: 20px;
 }
 
-#brands {
-	background: rgba(163, 154, 143, 0.69);
-    height: auto;
-    max-width: 100%;
-    margin-top: 0px;
-}
-
-.img-redbull {
-width: 11.0%;
-}
-.img-maker {
-width: 5.1%;
-}
-.img-channel-5 {
-width: 14.0%;
-}
-.img-svt {
-width: 8.35%;
-}
-.img-discovery {
-width: 12.7%;
-}
-
-
-#steps {
-	max-width: 900px;
-	}
-
-#arrow {
-    width: 4em;
-    vertical-align: middle;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin: 0 auto;
-    display:block;
-    opacity: 0.5;
-}
-
-.box {
-    border: 2px solid #EF7776;
-    padding: 25px;
-    border-radius: 10px;
-    font-size: 1.2em;
-    margin-top: 4.5%;
-}
-
-.textbox {
-	margin-top: 40px;
-	max-width: 900px;
-}
-
-
-/* css dropdown */
+/* css signup dropdown */
 
 .signupbox {
 	margin-top: 20px;
@@ -146,6 +63,7 @@ width: 12.7%;
 #signup {
 	display: inline-table;
 	height: 39px;
+	text-decoration: none;
 }
 
 .form-control {
@@ -174,38 +92,21 @@ width: 12.7%;
 	border-radius: 5px;
 }
 
-@media screen and (max-width: 500px) {
 
-#dropdown {
-    display: inline-table;
-    width: 100%;
+/* brands */
+
+#brands {
+	background: rgba(163, 154, 143, 0.69);
+    height: auto;
+    max-width: 100%;
+    margin-top: 0px;
 }
 
-#signup {
-	width: 100%;
-	margin-top: 10px;
+.container.banner {
+	max-height: 70px;
+    max-width: 100%;
+    height: auto;
 }
-
-/* end css drowdown */
-
-#steps-container {
-
-    padding-bottom: 0px;
-    padding-top: 35px;
-}
-
-#steps {
-	padding-left: 0px;
-    padding-right: 0px;
-}
-
-#mid {
-    padding-top: 40px;
-}
-
-
-}
-
 
 .caption {
 	float: left;
@@ -217,14 +118,6 @@ width: 12.7%;
     padding: 0.4em 0% 0em 2%;
     margin: 0 0 0 0;
 }
-
-
-.container.banner {
-	max-height: 70px;
-    max-width: 100%;
-    height: auto;
-}
-
 
 .banner li {
     display: inline-block;
@@ -240,33 +133,52 @@ width: 12.7%;
     margin: .3em 0 .4em 0;
     padding: 0 0 0 0%;
  }
+
+.client-logo {
+	max-width: 100%;
+    height: auto;
+}
  
 .img-wrap{
 	max-width: 100%;
 	height: auto;
 }
 
-.img-maker.img-wrap {
-	width: 130%;
+.img-redbull {
+	width: 11.0%;
 }
-.client-logo {
-	max-width: 100%;
-    height: auto;
+.img-maker {
+	width: 5.1%;
 }
-
-@media screen and (max-width: 700px) {
-.caption {
-      width: 45%;
-      font-size: 0.6em;
-    }
-.banner ul {
-      width: 100%;
-    }
-h1 {
-	padding-top: 0px !important;
+.img-channel-5 {
+	width: 14.0%;
+}
+.img-svt {
+	width: 8.35%;
+}
+.img-discovery {
+	width: 12.7%;
 }
 
+
+/* 1-2-3 */
+
+#steps-container {
+	background-color: rgb(248, 247, 242);
+    padding-bottom: 25px;
+    padding-top: 60px;
 }
+
+#steps {
+	max-width: 900px;
+	}
+
+#steps img {
+	width: 100%;
+}
+
+
+/* terms */
 
 #terms {
 	background-color: rgb(248, 247, 242);
@@ -279,11 +191,43 @@ h1 {
 	padding-right: 0px;
 }
 
+.textbox {
+	margin-top: 40px;
+	max-width: 900px;
+}
+
+.box {
+    border: 2px solid #EF7776;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-top: 4.5%;
+}
+
+#arrow {
+    width: 4em;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display:block;
+    opacity: 0.5;
+}
+
+
+/* clips section*/
+
+#mid {
+    padding-top: 110px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
 #videos{
 	background-color: #FFF;
 	min-height: 300px;
 	margin-bottom: 30px;
-
 }
 
 .videoWrapper {
@@ -304,29 +248,58 @@ h1 {
 	height: 100%;
 }
 
-h1 {
-	
-	font-size: 1.7em;
-	font-weight: 300;
-	color: #4B4F4A;
-	padding-top: 30px;
-	display: inline-block;
+
+
+/* responsiveness */
+
+@media screen and (max-width: 500px) {
+
+	#dropdown {
+	    display: inline-table;
+	    width: 100%;
+	}
+
+	#signup {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	#steps-container {
+
+	    padding-bottom: 0px;
+	    padding-top: 35px;
+	}
+
+	#steps {
+		padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+	#mid {
+	    padding-top: 40px;
+	}
 }
 
-h2 {
-	font-size: 2em;
-	font-weight: 600;
-}
 
+@media screen and (max-width: 700px) {
+	.caption {
+    	width: 45%;
+    	font-size: 0.6em;
+    }
 
-p {
-	font-size: 1.2em;
-	font-weight: 300;
+	.banner ul {
+    	width: 100%;
+	}
+
+	h1 {
+		padding-top: 0px !important;
+	}
+
 }
 
 @media (max-width: 991px) {
 	.videoWrapper {
 		margin-left: 0px;
 	}
-
+}
 
