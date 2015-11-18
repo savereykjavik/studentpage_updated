@@ -19,7 +19,7 @@ body {
 #steps-container {
 	background-color: rgb(248, 247, 242);
     padding-bottom: 40px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .divWrapper {
@@ -118,10 +118,10 @@ width: 12.7%;
 }
 
 .box {
-    border: 2px solid #ED5555;
+    border: 2px solid #EF7776;
     padding: 25px;
     border-radius: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 4.5%;
 }
 
@@ -192,7 +192,15 @@ width: 12.7%;
 
     padding-bottom: 0px;
     padding-top: 35px;
+}
 
+#steps {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+#mid {
+    padding-top: 40px;
 }
 
 
@@ -262,8 +270,7 @@ h1 {
 
 #terms {
 	background-color: rgb(248, 247, 242);
-/*background-color: #FFF;*/
-	color: #CC0000;
+	color: #C53434;
 	max-height: 100%;
 }
 
