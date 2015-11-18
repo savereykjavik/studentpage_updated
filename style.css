@@ -104,20 +104,12 @@ width: 12.7%;
 }
 
 
-
-#brag {
-    margin-left: 190px;
-    margin-top: 0;
-    width: 70%;
-}
-
-
 #steps {
 	max-width: 900px;
 	}
 
 .box {
-    border: 2px solid #EE5656;
+    border: 2px solid #ED5555;
     padding: 25px;
     border-radius: 10px;
     font-size: 1.3em;
@@ -186,6 +178,14 @@ width: 12.7%;
 }
 
 /* end css drowdown */
+
+#steps-container {
+
+    padding-bottom: 0px;
+    padding-top: 35px;
+
+}
+
 
 }
 
@@ -304,8 +304,7 @@ h2 {
 
 
 p {
-/*	font-size: 1.2em;*/
-font-size: 18px;
+	font-size: 1.2em;
 	font-weight: 300;
 }
 
